@@ -41,6 +41,7 @@ new daum.Postcode({
   onsearch: function (data) { /* data는 검색 결과에 대한 검색어(q)와 결과 갯수(count) */ },
   theme: { /* 테마 색상 변경 ex. bgColor: "#000" */ }, 
  })
+
  .open({
   popupTitle: '우편번호 검색 팝업창 이름', 
   autoClose: false // true 일 경우 검색 결과 선택 시 자동으로 창이 닫힘
@@ -54,7 +55,7 @@ new daum.Postcode({
 --- 
 # 예제
 
-- 예제 링크는 프리젠테이션 후 정리가 끝나면 노션에 공유
+![example1](https://user-images.githubusercontent.com/120437898/224956030-72a13478-b807-4011-acc3-770174d6a3b6.gif)
 
 ---
 # [Daum 주소 검색 API 링크](https://postcode.map.daum.net/guide)
