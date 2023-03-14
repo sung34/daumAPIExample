@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script type="module" defer src="index.js"></script>
+  
+  <title>Daum 주소 검색 API 예제</title>
+</head>
+<body>
+  <section>
+    <label for="search-btn"><h1>팝업</h1></label>
+    <button id="search-btn">주소 검색</button>
+    <p>사용자가 선택한 값을 채워 넣습니다.</p>
+    <p>
+      우편 번호: <span id="popup-zonecode"></span><br>
+      주소: <span id="popup-address"></span><br>
+      상세 주소: <input id="popup-detail" /><br>
+      참고 항목: <span id="popup-extra"></span>
+    </p>
+  </section>
+  <section>
+    <h1>iframe Layer</h1>
+    <div class="search-layer">
+      <div id="search-layer__frame" class="search-layer__frame"></div>
+    </div>
+    <p>
+      우편 번호: <span id="layer-zonecode"></span><br>
+      주소: <span id="layer-address"></span><br>
+      상세 주소: <input id="layer-detail" /><br>
+      참고 항목: <span id="layer-extra"></span>
+    </p>
+  </section>
+</body>
+</html>
